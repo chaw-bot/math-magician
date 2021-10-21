@@ -10,6 +10,20 @@ const Calculator = () => {
     setState(calculate(calcObj, text));
   };
 
+  let calcDisplay = '0';
+  if (
+    Object.keys(calcObj).length === 0
+      || (calcObj.total === null
+        && calcObj.next === null
+        && calcObj.operation === null)
+  ) {
+    calcDisplay = '0';
+  } else {
+    calcDisplay = calcObj.next != null ? calcObj.next
+      : calcObj.next != null ? calcObj.total
+        : calcObj.operation;
+  }
+
   
 };
 
