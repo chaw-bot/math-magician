@@ -1,3 +1,4 @@
+/* eslint-disable no-nested-ternary */
 import React from 'react';
 import calculate from '../logic/calculate';
 import Buttons from './buttons';
@@ -28,7 +29,9 @@ class Calculator extends React.Component {
     ) {
       calcDisplay = '0';
     } else {
-      calcDisplay = calcObj.next != null ? calcObj.next : calcObj.total;
+      calcDisplay = calcObj.next != null ? calcObj.next
+        : calcObj.next != null ? calcObj.total
+          : calcObj.operation;
     }
 
     return (
