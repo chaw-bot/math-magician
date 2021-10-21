@@ -26,7 +26,11 @@
   grid-template-columns: 75% 25%;
 }
 
-.Grey-btns button{
+button {
+  cursor: pointer;
+}
+
+.Grey-btns button {
   background-color: #e0e0e7;
 }
 
@@ -50,8 +54,4 @@
 .Calc-btn {
   border: solid 1px rgb(197, 196, 196);
   font-size: 15px;
-}
-
-button {
-  cursor: pointer;
 }
