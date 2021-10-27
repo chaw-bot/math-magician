@@ -6,7 +6,11 @@
 
 Desktop Version
 
-![screenshot](./images/Screenshot.png)
+![Home page](./images/Screenshot1.png)
+
+![Calculator](./images/Screenshot2.png)
+
+![Quotes page](./images/Screenshot3.png)
 
 ## Built With
 
