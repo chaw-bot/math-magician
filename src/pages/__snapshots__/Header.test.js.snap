@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Header 1`] = `
+<div
+  className="nav"
+>
+  <nav
+    className="navBar"
+  >
+    <h1
+      className="title"
+    >
+      MathMagicians
+    </h1>
+    <ul
+      className="otherPages"
+    >
+      <li
+        className="homePage"
+      >
+        <a
+          aria-current="page"
+          className="active-link"
+          href="/"
+          onClick={[Function]}
+          style={Object {}}
+        >
+          Home
+        </a>
+      </li>
+      <li
+        className="calcPage"
+      >
+        <a
+          aria-current={null}
+          href="/calculator"
+          onClick={[Function]}
+        >
+          Calculator
+        </a>
+      </li>
+      <li
+        className="quotePage"
+      >
+        <a
+          aria-current={null}
+          href="/quotes"
+          onClick={[Function]}
+        >
+          Quotes
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <footer
+    className="footer"
+  >
+    <p>
+      Created by Chawanzi Ng'uni
+    </p>
+  </footer>
+</div>
+`;

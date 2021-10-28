@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Home page 1`] = `
+<div
+  className="home-details"
+>
+  <h2
+    className="home-title"
+  >
+    Welcome to our page!
+  </h2>
+  <div
+    className="home-para"
+  >
+    Lorem ipsum dolor sit amet,consectetur adipiscing elit. Pellentesque tempor ac nisi et facilisis. Vestibulum imperdiet, felis vitae lobortis porta,erat libero tempus arcu, id cursus lectus velit arcu. Phasellus venenatis venenatis elementum.Quisque tristique ipsum ac dui lobortis semper.
+    <br />
+    <br />
+    Duis placerat orci ultrices, elementum sem ut, tempus enim. Aenean in nulla mauris. Proin varius efficitur risus, eget gravida est viverra eget. Aenean eleifend laoreet tempor. Donec varius venenatis quam vel rutrum. Aliquam orci nulla, feugiat in dignissim at, ullamcorper ac metus.
+  </div>
+</div>
+`;
