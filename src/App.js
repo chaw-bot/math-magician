@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Calculator from './components/Calculator';
 import Header from './pages/Header';
@@ -14,7 +14,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <>
+      <Router>
         <Header />
         <Switch>
           <Route exact path="/">
@@ -27,7 +27,7 @@ class App extends React.Component {
             <Quote />
           </Route>
         </Switch>
-      </>
+      </Router>
     );
   }
 }
