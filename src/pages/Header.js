@@ -37,9 +37,6 @@ const Header = () => {
           ))}
         </ul>
       </nav>
-      <footer className="footer">
-        <p>Created by Chawanzi Ng&apos;uni</p>
-      </footer>
     </div>
   );
 };
