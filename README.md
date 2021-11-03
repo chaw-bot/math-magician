@@ -20,7 +20,7 @@ Desktop Version
 
 ## Live Demo
 
-[Live Demo](https://chaw-bot.github.io/math-magician/)
+[Live Demo](https://chaw-bot.github.io/math-magician/), [Heroku]() and [Netlify] ()
 
 # Install Instruction
 1. Open your terminal and `cd` to a proper location.
